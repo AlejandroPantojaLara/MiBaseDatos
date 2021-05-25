@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MiBaseDatos</string>
+    <string name="crear_contacto">Nuevo Contacto</string>
+    <string name="buscar">Buscar</string>
+    <string name="ingrese_usuario">Usuario...</string>
+    <string name="ingrese_email">Email...</string>
+    <string name="ingrese_tel_fono">Teléfono...</string>
+    <string name="ingresa_fecha_de_nacimiento">Fecha de Nacimiento...</string>
+    <string name="agregar">Agregar Contacto</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="actualizar">Actualizar Contacto</string>
+</resources>

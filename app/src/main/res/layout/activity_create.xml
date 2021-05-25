@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AgregarContactoActivity">
+
+    <EditText
+        android:id="@+id/txtUsuarioCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/ingrese_usuario"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEmailCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:ems="10"
+        android:hint="@string/ingrese_email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtTelefonoCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:ems="10"
+        android:hint="@string/ingrese_tel_fono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/txtFechaNacimientoCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:ems="10"
+        android:hint="@string/ingresa_fecha_de_nacimiento"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnAgregarCrear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/agregar" />
+
+    <Button
+        android:id="@+id/btnCancelarCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/cancelar" />
+
+</LinearLayout>
